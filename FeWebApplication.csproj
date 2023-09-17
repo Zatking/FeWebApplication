@@ -1,0 +1,173 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8B96A56-64A6-4335-8EA5-339C4D8941FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FeWebApplication</RootNamespace>
+    <AssemblyName>FeWebApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Homepage.html" />
+    <Content Include="Img\0000211_airpods-pro-2_240.png" />
+    <Content Include="Img\0000594_ipad-air-4_240.png" />
+    <Content Include="Img\0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.png" />
+    <Content Include="Img\0000896_apple-watch-se-nhom-gps_240.png" />
+    <Content Include="Img\0000897_apple-watch-series-3-nhom_240.png" />
+    <Content Include="Img\0001025_apple-watch-series-7-nhom-gps_240.png" />
+    <Content Include="Img\0001395_sac-20w-usb-c-power-adapter_240.png" />
+    <Content Include="Img\0001421_magic-mouse-2_240.jpeg" />
+    <Content Include="Img\0001742_iphone-14-pro-max-leather-case-with-magsafe_240.jpeg" />
+    <Content Include="Img\0006057_tai-nghe-apple-airpods-3-sac-co-day-lightning_240.jpeg" />
+    <Content Include="Img\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png" />
+    <Content Include="Img\0007071_ipad-pro-m2-11-inch-wifi-128gb_240.png" />
+    <Content Include="Img\0007808_iphone-14-pro-max-128gb_240.png" />
+    <Content Include="Img\0008502_macbook-air-m2-2022-8gb-ram-256gb-ssd_240.png" />
+    <Content Include="Img\0008682_macbook-pro-13-inch-m2-10-core-8gb-ram-256gb-ssd_240.png" />
+    <Content Include="Img\0008734_iphone-14-pro-128gb_240.png" />
+    <Content Include="Img\0008913_apple-watch-ultra-lte-49mm-alpine-loop-size-s_240.png" />
+    <Content Include="Img\0010774_pencil-1-2022_240.png" />
+    <Content Include="Img\0010883_ipad-pro-m1-129-inch-wifi-cellular-512gb_240.png" />
+    <Content Include="Img\0011267_macbook-pro-14-inch-m2-pro-16-core-16gb-512gb_240.jpeg" />
+    <Content Include="Img\0012005_airpods-max_240.png" />
+    <Content Include="Img\0012445_Logo_ShopDunk %281%29.png" />
+    <Content Include="Img\0015612_airpods-2_240.png" />
+    <Content Include="Img\0020269_0020193_su-kien-ra-mat-iphone-15-ngay-13-09_1600_1600.png" />
+    <Content Include="Img\0020295_784x315_1600.png" />
+    <Content Include="Img\0020311_iphone-15-pro-max-256gb_240 %281%29.png" />
+    <Content Include="Img\0020320_iphone-15-128gb_240.png" />
+    <Content Include="Img\0020527_iPhone_15_Lineup_Screen__WWEN-1_1600.png" />
+    <Content Include="Img\2.jpeg" />
+    <Content Include="Img\banner ipad gen9 T9_Banner PC.jpg" />
+    <Content Include="Img\Bonus banner-16.png" />
+    <Content Include="Img\Bonus banner-26.png" />
+    <Content Include="Img\BONUSt7.png" />
+    <Content Include="Img\Calender.png" />
+    <Content Include="Img\chao-tan-sv.png" />
+    <Content Include="Img\download %281%29.png" />
+    <Content Include="Img\download-logo-vector-shopdunk-mien-phi.jpg" />
+    <Content Include="Img\download.png" />
+    <Content Include="Img\new.png" />
+    <Content Include="Img\xatonkho.png" />
+    <Content Include="MasterCSS.css" />
+    <Content Include="MasterLayout.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50598</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50598/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
